@@ -272,18 +272,14 @@ textarea:focus{
   width: 16px;
 }
 
-
 }
+
 
 @media screen and (max-width: 992px) {
   .landingPage {
     height: 90vh;
   }
 
-  .spH1 {
-    display: block;
-  }
-  
 
 }
 
