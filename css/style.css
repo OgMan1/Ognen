@@ -110,7 +110,6 @@ color: rgb(51, 0, 51);
   display: none;
 }
 
-
 .h1Flex:hover {
   transform: scale(1.15);
   transition: transform 0.5s linear; 
@@ -138,20 +137,12 @@ color: rgb(51, 0, 51);
   -1px -1px 0 rgb(63, 15, 117);
 }
 
- .hinge {
-  -webkit-animation-duration: 2s;
-    -webkit-animation-name: hinge;
-    animation-duration: 2s;
-    animation-name: hinge;
-}
-
 .flipInX {
   -webkit-animation-duration: 1.5s;
     -webkit-animation-name: flipInX;
     animation-duration: 1.5s;
     animation-name: flipInX; 
 }
-
 
 .shake {
   -webkit-animation-duration: 1s;
@@ -248,13 +239,6 @@ textarea:focus{
 
 
 
-@media screen and (max-width: 992px) {
-  .landingPage {
-    height: 90vh;
-  }
-
-}
-
 
 @media screen and (max-width: 576px) {
 
@@ -291,5 +275,10 @@ textarea:focus{
 
 }
 
+@media screen and (max-width: 992px) {
+  .landingPage {
+    height: 90vh;
+  }
 
+}
 

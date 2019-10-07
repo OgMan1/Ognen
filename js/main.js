@@ -6,8 +6,6 @@ $(document).ready(function () {
         duration: 1200
        });
 
-      //  $('#myVideo').attr('src', 'Sky.mp4');
-
 
 $( ".imgSecondRow2" ).on('mouseenter' ,function() {
   $('.imgSecondRow2').attr('src', 'img/logo_transparent5.png');
@@ -63,13 +61,15 @@ $('#test').on('click', function(){
   }
 });
 
+if(moon() == 200) {
+  return sun()
+} else {
+  return moon()
+};
+
  function moon () {
-    $('body').css({'background-color':'rgb(3, 3, 51)'}); 
-  // $('#myVideo').attr('src', 'Space1.mp4');
   $('#myVideo').css('display', 'none');
   $('#myVideo2').css('display', 'block');
-
-
     $(' .secondRow, .thirdRow').css('color' , 'orange'); 
     $('.secondRow h2, .thirdRow h2, .h1Flex,.cardRow h5').css('color' , 'yellow'); 
     // .navbar-light .navbar-nav .nav-link,
@@ -93,11 +93,8 @@ $('#test').on('click', function(){
   }
 
   function sun () {
-    $('body').css({'background-color':'rgb(34, 59, 139)'});
-  // $('#myVideo').removeAttr('src', 'Space1.mp4').attr('src', 'Sky.mp4');
   $('#myVideo2').css('display', 'none');
   $('#myVideo').css('display', 'block');
-
     $('.h1Flex, .secondRow h2, .thirdRow h2, .cardRow h5').css('color' , 'red'); 
     $('.secondRow, .thirdRow').css('color' , 'rgb(51, 0, 51)'); 
     $('.h1Flex').removeClass('h1FlexDark'); 
@@ -121,7 +118,6 @@ $('#test').on('click', function(){
       $('.imgSecondRow2').attr('src', 'img/logoNewTrans.png').css('transition' , 'transform 0.5s linear');
     });
   }
-
 
 
 });
