@@ -7,6 +7,13 @@ $(document).ready(function () {
        });
 
 
+if(moon() == 200) {
+  return sun()
+} else {
+  return moon()
+};
+
+
 $( ".imgSecondRow2" ).on('mouseenter' ,function() {
   $('.imgSecondRow2').attr('src', 'img/logo_transparent5.png');
 });
@@ -61,11 +68,6 @@ $('#test').on('click', function(){
   }
 });
 
-if(moon() == 200) {
-  return sun()
-} else {
-  return moon()
-};
 
  function moon () {
   $('#myVideo').css('display', 'none');
