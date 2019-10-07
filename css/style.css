@@ -1,0 +1,295 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  #myVideo, #myVideo2 {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#myVideo2 {
+  display: none;
+}
+
+.music:hover {
+  cursor: pointer;
+}
+
+/* NAVBAR  */
+
+.topNav {
+    padding: 10px;
+  animation-name: slidein;
+  animation-duration: 1.5s;
+  margin: 0;
+color: rgb(51, 0, 51);
+}
+
+@keyframes slidein {
+from {
+  margin-left: 100%;
+  width: 350%; 
+}
+
+to {
+  margin-left: 12%;
+  width: 100%;
+}
+} 
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.navText, #ogSpan, .cardRow ul {
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: red;
+    text-decoration: none;
+}
+
+.cardRow ul li {
+color: rgb(51, 0, 51);
+}
+
+#ogSpan, .contInfo {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+/* LANDING PAGE  */
+
+.landingPage {
+    height: 100vh;
+}
+
+.h1Flex {
+  padding-top: 5%;
+  text-align: center;
+  /* font-family: 'Oswald', Helvetica, sans-serif; */
+  font-size: 80px;
+  transform: skewY(-10deg);
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: red;
+  text-shadow: 
+    -1px -1px 0 rgb(63, 15, 117),
+    -2px -2px 0 rgb(63, 15, 117),
+    -3px -3px 0 rgb(63, 15, 117),
+    -4px -4px 0 rgb(63, 15, 117),
+    -5px -5px 0 rgb(63, 15, 117),
+    -6px -6px 0 rgb(63, 15, 117),
+    -7px -7px 0 rgb(63, 15, 117),
+    -8px -8px 0 rgb(63, 15, 117),
+    /* -8px -8px 0 rgb(51, 0, 51), */
+    -30px 20px 40px purple;
+}
+
+.active {
+  background-color: red;
+  border-radius: 5px;
+}
+
+.spH1 {
+  font-size: 40px;
+  color: rgb(63, 15, 117);
+  text-shadow: 
+    -1px -1px 0 rgb(51, 0, 51),
+    -2px -2px 0 rgb(51, 0, 51),
+    -3px -3px 0 rgb(51, 0, 51),
+    -30px 20px 40px purple;
+  display: none;
+}
+
+
+.h1Flex:hover {
+  transform: scale(1.15);
+  transition: transform 0.5s linear; 
+}
+
+.secondRow h2, .thirdRow h2 {
+  font-size: 2.5em;
+  letter-spacing: 4px;
+  word-spacing: -8px;
+  color: red;
+  text-shadow: 
+    -1px -1px 0 rgb(63, 15, 117),
+    -2px -2px 0 rgb(63, 15, 117),
+    -3px -3px 0 rgb(63, 15, 117),
+    -4px -4px 0 rgb(63, 15, 117),
+    -5px -5px 0 rgb(63, 15, 117),
+    -30px 20px 40px purple;
+  margin: 1em 0;
+}
+
+.cardRow h5 {
+  font-size: 1.3em;
+  color: red;
+  text-shadow: 
+  -1px -1px 0 rgb(63, 15, 117);
+}
+
+ .hinge {
+  -webkit-animation-duration: 2s;
+    -webkit-animation-name: hinge;
+    animation-duration: 2s;
+    animation-name: hinge;
+}
+
+.flipInX {
+  -webkit-animation-duration: 1.5s;
+    -webkit-animation-name: flipInX;
+    animation-duration: 1.5s;
+    animation-name: flipInX; 
+}
+
+
+.shake {
+  -webkit-animation-duration: 1s;
+    -webkit-animation-name: shake;
+    animation-duration: 1s;
+    animation-name: shake; 
+}
+
+.secondRow, .thirdRow {
+  margin: 2em 0;
+  font-size: 1.15em;
+  color: rgb(51, 0, 51);
+  font-weight: 600;
+}
+
+.sunMode {
+  color: firebrick;
+  background-color: white;
+} */
+
+.smallPicture {
+  height: 50px;
+  width: 50px;
+  display: none;
+  z-index: 20;
+}
+
+.smallPicture2 {
+  display: block;
+}
+
+.imgSecondRow:hover, .btnForm:hover, .btnFor:hover {
+  transform: scale(1.05);
+  transition: transform .2s linear;
+  -webkit-box-shadow: 10px 10px 22px -2px rgba(63, 15, 117, 0.75);
+-moz-box-shadow: 10px 10px 22px -2px rgba(63, 15, 117, 0.75);
+box-shadow: 10px 10px 22px -2px rgba(63, 15, 117, 0.75);
+}
+
+.btnFor:hover {
+  transform: none;
+}
+
+.imgSecondRow2:hover {
+  transform: rotate(-14deg);
+  transition: transform 0.5s linear;
+}
+
+.progress-bar, .cardRow {
+  margin: 1em 0;
+  padding: 5px;
+  border-radius: 7px;
+}
+
+.cardRow {
+  padding: 0;
+}
+
+.audioPlayer {
+  display: none;
+
+}
+
+footer {
+  padding: 10px;
+  margin: 1em 0 0.5em 0;
+  color: rgb(51, 0, 51);
+  font-size: 1.1em;
+}
+
+.fa-linkedin {
+  font-size: 1.7em;
+}
+
+textarea, input.form-control {
+  background-color: transparent;
+  color: rgb(51, 0, 51);
+  border: 1px solid red;
+  width: 100%;
+}
+
+textarea:focus{
+  border: 1px solid yellow;
+}
+
+.card {
+  background-color: transparent;
+  border: 1px solid red;
+}
+
+.logoPicFoot {
+  width: 30px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+  .landingPage {
+    height: 90vh;
+  }
+
+}
+
+
+@media screen and (max-width: 576px) {
+
+  .h1Flex {
+    padding-top: 10%;
+    font-size: 40px;
+  }
+
+  .secondRow h2, .thirdRow h2 {
+    letter-spacing: 2px;
+  }
+
+  .spH1 {
+    font-size: 26px;
+  }
+
+  footer {
+    padding: 5px;
+    font-size: 10px;
+  }
+
+  .secondRow, .thirdRow {
+    font-size: 0.8em;
+}
+
+.cardRow ul {
+  font-size: 1.1em;
+}
+
+.logoPicFoot {
+  width: 16px;
+}
+
+
+}
+
+
+
