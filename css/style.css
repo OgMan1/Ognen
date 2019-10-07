@@ -261,11 +261,15 @@ textarea:focus{
   }
 
   .secondRow, .thirdRow {
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 .cardRow ul {
-  font-size: 1.1em;
+  font-size: 1.2em;
+}
+
+.cardRow ul li {
+  font-size: 1em;
 }
 
 .logoPicFoot {
