@@ -6,7 +6,7 @@ $(document).ready(function () {
         duration: 1200
        });
 
-
+ $('#myVideo').attr('src', 'vid/Sky.mp4');
 $( ".imgSecondRow2" ).on('mouseenter' ,function() {
   $('.imgSecondRow2').attr('src', 'img/logo_transparent5.png');
 });
