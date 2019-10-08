@@ -180,10 +180,6 @@ to {
   font-weight: 600;
 }
 
-.sunMode {
-  color: firebrick;
-  background-color: white;
-} */
 
 .imgSecondRow:hover, .btnForm:hover, .btnFor:hover {
   transform: scale(1.05);
@@ -276,7 +272,7 @@ footer {
   }
 
   .secondRow, .thirdRow {
-    font-size: 1.15em;
+    font-size: 1.10em;
 }
 
 .logoPicFoot {

@@ -70,17 +70,13 @@ if(moon() == 202) {
  function moon () {
   $('#myVideo').css('display', 'none');
   $('#myVideo2').css('display', 'block');
-    $(' .secondRow, .thirdRow').css('color' , 'orange'); 
+    $(' .secondRow, .thirdRow, footer, .cardRow ul li').addClass('text-warning'); 
     $('.secondRow h2, .thirdRow h2, .h1Flex,.cardRow h5').css('color' , 'yellow'); 
-    // .navbar-light .navbar-nav .nav-link,
     $('.logoPic, .logoPicFoot').attr('src', 'img/logoN2.png');
      $('.spH1, #ogSpan, .cardRow ul').css('color', 'aqua');
-     $('.cardRow ul li').css('color', 'orange');
   $('textarea, input.form-control, .textarea:focus').css({'color':'aqua' , 'border' : '1px solid orange'});
   $('.textarea:focus').css('color','purple' );
   $('.btnForm, .btn-danger, .navText').addClass('bg-warning'); 
-  $('footer').css('color','orange');
-  // $('.navbar-light .navbar-nav .nav-link .active').css('color' , 'yellow');
   $('.progBarInfo').removeClass('bg-danger').addClass('bg-info');
      $('.fa-moon').removeClass('fa-moon').addClass('fa-sun'); 
     $('.imgSecondRow2').attr('src', 'img/logo_transparent.png');
@@ -96,7 +92,7 @@ if(moon() == 202) {
   $('#myVideo2').css('display', 'none');
   $('#myVideo').css('display', 'block');
     $('.h1Flex, .secondRow h2, .thirdRow h2, .cardRow h5').css('color' , 'red'); 
-    $('.secondRow, .thirdRow').css('color' , 'rgb(51, 0, 51)'); 
+    $(' .secondRow, .thirdRow, footer, .cardRow ul li').removeClass('text-warning'); 
     $('.h1Flex').removeClass('h1FlexDark'); 
   $('.progBarInfo').removeClass('bg-info').addClass('bg-danger');
   $('input.form-control').css({'color':'rgb(51, 0, 51)'});
