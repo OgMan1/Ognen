@@ -185,17 +185,6 @@ to {
   background-color: white;
 } */
 
-/* .smallPicture {
-  height: 50px;
-  width: 50px;
-  display: none;
-  z-index: 20;
-}
-
-.smallPicture2 {
-  display: block;
-} */
-
 .imgSecondRow:hover, .btnForm:hover, .btnFor:hover {
   transform: scale(1.05);
   transition: transform .2s linear;
@@ -233,7 +222,7 @@ box-shadow: 10px 10px 22px -2px rgba(63, 15, 117, 0.75);
 
 .cardRow ul li {
 color: rgb(51, 0, 51);
-font-size: 0.7em;
+font-size: 0.8em;
 }
 
 
