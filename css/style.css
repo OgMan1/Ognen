@@ -24,6 +24,10 @@ html {
   cursor: pointer;
 }
 
+.audioPlayer {
+  display: none;
+}
+
 /* NAVBAR  */
 
 .topNav {
@@ -57,15 +61,6 @@ to {
     text-decoration: none;
 }
 
-.cardRow ul {
-  font-size: 1.2em;
-}
-
-.cardRow ul li {
-color: rgb(51, 0, 51);
-font-size: 0.7em;
-}
-
 .navLogo:hover {
   animation-name: rotateY;
   animation-duration: 1.2s;
@@ -83,8 +78,6 @@ font-size: 0.7em;
     transform: rotateY(360deg);
   }
 }  
-
-
 
 #ogSpan, .contInfo {
   font-size: 1.2em;
@@ -155,13 +148,12 @@ font-size: 0.7em;
   margin: 1em 0;
 }
 
-.textSecondRow h2 {
-  margin: 0.4em 0 0.5em 0;
+ .secondh2 h2 {
+  margin: 0.5em 0 0.3em 0;
 }
 
-
 .cardRow h5 {
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: red;
   text-shadow: 
   -1px -1px 0 rgb(63, 15, 117);
@@ -182,8 +174,8 @@ font-size: 0.7em;
 }
 
 .secondRow, .thirdRow {
-  margin: 2em 0;
-  font-size: 1.20em;
+  margin: 1.75em 0;
+  font-size: 1.2em;
   color: rgb(51, 0, 51);
   font-weight: 600;
 }
@@ -193,7 +185,7 @@ font-size: 0.7em;
   background-color: white;
 } */
 
-.smallPicture {
+/* .smallPicture {
   height: 50px;
   width: 50px;
   display: none;
@@ -202,7 +194,7 @@ font-size: 0.7em;
 
 .smallPicture2 {
   display: block;
-}
+} */
 
 .imgSecondRow:hover, .btnForm:hover, .btnFor:hover {
   transform: scale(1.05);
@@ -231,20 +223,19 @@ box-shadow: 10px 10px 22px -2px rgba(63, 15, 117, 0.75);
   padding: 0;
 }
 
-.audioPlayer {
-  display: none;
-
+.cardDiv {
+  margin: 1em 0;
 }
 
-footer {
-  padding: 10px;
-  margin: 1em 0 0.5em 0;
-  font-size: 1.1em;
+.cardRow ul {
+  font-size: 1.15em;
 }
 
-.fa-linkedin {
-  font-size: 1.7em;
+.cardRow ul li {
+color: rgb(51, 0, 51);
+font-size: 0.7em;
 }
+
 
 textarea, input.form-control {
   background-color: transparent;
@@ -262,9 +253,20 @@ textarea:focus{
   border: 1px solid red;
 }
 
+footer {
+  padding: 10px;
+  margin: 1em 0 0.5em 0;
+  font-size: 1.1em;
+}
+
+.fa-linkedin {
+  font-size: 1.7em;
+}
+
 .logoPicFoot {
   width: 30px;
 }
+
 
 
 
@@ -284,19 +286,19 @@ textarea:focus{
     font-size: 26px;
   }
 
-  footer {
-    padding: 5px;
-    font-size: 10px;
-  }
-
   .secondRow, .thirdRow {
     font-size: 1.15em;
 }
 
-
 .logoPicFoot {
   width: 16px;
 }
+
+  footer {
+  padding: 5px;
+  font-size: 10px;
+}
+
 
 
 }
@@ -306,10 +308,10 @@ textarea:focus{
     height: 90vh;
   }
 
-  .textSecondRow h2 {
+  .secondh2 h2 {
     margin: 1em 0;
   }
-  
+
 
 }
 
