@@ -140,7 +140,7 @@ font-size: 0.7em;
   transition: transform 0.5s linear; 
 }
 
-.secondRow h2, .thirdRow h2 {
+.secondRow h2, .thirdRow h2, .textSecondRow h2 {
   font-size: 2.5em;
   letter-spacing: 4px;
   word-spacing: -8px;
@@ -154,6 +154,11 @@ font-size: 0.7em;
     -30px 20px 40px purple;
   margin: 1em 0;
 }
+
+.textSecondRow h2 {
+  margin: 0.4em 0 0.5em 0;
+}
+
 
 .cardRow h5 {
   font-size: 1.3em;
@@ -178,7 +183,7 @@ font-size: 0.7em;
 
 .secondRow, .thirdRow {
   margin: 2em 0;
-  font-size: 1.25em;
+  font-size: 1.20em;
   color: rgb(51, 0, 51);
   font-weight: 600;
 }
@@ -301,7 +306,10 @@ textarea:focus{
     height: 90vh;
   }
 
-
+  .textSecondRow h2 {
+    margin: 1em 0;
+  }
+  
 
 }
 
