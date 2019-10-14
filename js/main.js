@@ -43,7 +43,7 @@ let playing = false;
       if (playing == false) {
         $('.audioPlayer').trigger("play");
           playing = true;
-          $(this).text(' Chill ON');
+          $(this).text(' Rock ON');
       } else {
         $('.audioPlayer').trigger("pause");
         playing = false;
