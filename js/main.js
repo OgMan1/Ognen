@@ -43,7 +43,7 @@ let playing = false;
       if (playing == false) {
         $('.audioPlayer').trigger("play");
           playing = true;
-          $(this).text(' Rock ON');
+          $(this).text(' Rock ON ');
       } else {
         $('.audioPlayer').trigger("pause");
         playing = false;
@@ -70,8 +70,8 @@ if(moon() == 202) {
  function moon () {
   $('#myVideo').css('display', 'none');
   $('#myVideo2').css('display', 'block');
-    $(' .secondRow, .thirdRow, footer, .cardRow ul li').addClass('text-warning'); 
-    $('.secondRow h2, .thirdRow h2, .h1Flex,.cardRow h5').css('color' , 'yellow'); 
+    $(' .secondRow, .thirdRow, footer, .cardRow ul li, .cardRow h5').addClass('text-warning'); 
+    $('.h1Flex, .secondRow h2, .thirdRow h2').css('color' , 'yellow'); 
     $('.logoPic, .logoPicFoot').attr('src', 'img/logoN2.png');
      $('.spH1, #ogSpan, .cardRow ul').css('color', 'aqua');
   $('textarea, input.form-control, .textarea:focus').css({'color':'aqua' , 'border' : '1px solid orange'});
@@ -91,15 +91,13 @@ if(moon() == 202) {
   function sun () {
   $('#myVideo2').css('display', 'none');
   $('#myVideo').css('display', 'block');
-    $('.h1Flex, .secondRow h2, .thirdRow h2, .cardRow h5').css('color' , 'red'); 
-    $(' .secondRow, .thirdRow, footer, .cardRow ul li').removeClass('text-warning'); 
+  $(' .secondRow, .thirdRow, footer, .cardRow ul li, .cardRow h5').removeClass('text-warning'); 
+    $('.h1Flex, .secondRow h2, .thirdRow h2, .cardRow h5, .cardRow ul, #ogSpan').css('color' , 'red'); 
     $('.h1Flex').removeClass('h1FlexDark'); 
   $('.progBarInfo').removeClass('bg-info').addClass('bg-danger');
-  $('input.form-control').css({'color':'rgb(51, 0, 51)'});
+  $('input.form-control, .cardRow ul li').css({'color':'rgb(51, 0, 51)'});
   $('.btnForm, .btn-danger, .navText').removeClass('bg-warning'); 
     $('.navbar-light .navbar-nav .nav-link').css('color' , 'black');
-    $('.cardRow ul li').css('color', 'rgb(51, 0, 51)');
-    $('.cardRow ul, #ogSpan').css('color', 'red');
     $('.spH1').css('color', 'rgb(63, 15, 117)');
     $('.navText').css('background-color','transparent'); 
     $('textarea, input.form-control, .textarea:focus').css({'border' : '1px solid red'});
