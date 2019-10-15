@@ -77,7 +77,8 @@ if(moon() == 202) {
   $('textarea, input.form-control, .textarea:focus').css({'color':'aqua' , 'border' : '1px solid orange'});
   $('.textarea:focus').css('color','purple' );
   $('.btnForm, .btn-danger, .navText').addClass('bg-warning'); 
-  $('.progBarInfo').removeClass('bg-danger').addClass('bg-info');
+  $('.btnForm, .btnFor, .progBarInfo, .navText').addClass('text-dark').css('font-weight','700'); 
+  $('.progBarInfo').removeClass('bg-danger').addClass('bg-warning');
      $('.fa-moon').removeClass('fa-moon').addClass('fa-sun'); 
     $('.imgSecondRow2').attr('src', 'img/logo_transparent.png');
     $( ".imgSecondRow2" ).on('mouseenter' ,function() {
@@ -97,6 +98,8 @@ if(moon() == 202) {
   $('.progBarInfo').removeClass('bg-info').addClass('bg-danger');
   $('input.form-control, .cardRow ul li').css({'color':'rgb(51, 0, 51)'});
   $('.btnForm, .btn-danger, .navText').removeClass('bg-warning'); 
+  $('.btnForm, .btnFor, .progBarInfo, .navText').removeClass('text-dark').css('font-weight','700'); 
+
     $('.navbar-light .navbar-nav .nav-link').css('color' , 'black');
     $('.spH1').css('color', 'rgb(63, 15, 117)');
     $('.navText').css('background-color','transparent'); 
