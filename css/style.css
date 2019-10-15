@@ -113,7 +113,7 @@ to {
 }
 
 .active {
-  background-color: aqua;
+  background-color: red;
   border-radius: 5px;
 }
 
