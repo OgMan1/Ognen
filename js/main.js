@@ -71,8 +71,8 @@ if(moon() == 202) {
   $('#myVideo').css('display', 'none');
   $('#myVideo2').css('display', 'block');
     $(' .secondRow, .thirdRow, footer, .cardRow ul li, .cardRow h5').addClass('text-warning'); 
-    $('.h1Flex, .secondRow h2, .thirdRow h2').css('color' , 'yellow'); 
-    $('.secondRow h2').css('color' , 'aqua'); 
+    $('.h1Flex').css('color' , 'yellow'); 
+    $(' .secondRow h2, .thirdRow h2').css('color' , 'aqua'); 
     $('.logoPic, .logoPicFoot').attr('src', 'img/logoN2.png');
      $('.spH1, #ogSpan, .cardRow ul').css('color', 'aqua');
   $('textarea, input.form-control, .textarea:focus').css({'color':'aqua' , 'border' : '1px solid orange'});
