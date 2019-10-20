@@ -30,7 +30,6 @@ $( ".h1Flex" ).on('mouseleave' ,function() {
     $('.imgPhone').removeClass('shake');
   });
 
-
   
 $('.fa-music').on('click', function(){
   $('.audioPlayer').trigger("play");
