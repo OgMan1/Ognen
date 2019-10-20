@@ -30,6 +30,13 @@ $( ".h1Flex" ).on('mouseleave' ,function() {
     $('.imgPhone').removeClass('shake');
   });
 
+  $( '.imgOg' ).on('mouseenter' ,function() {
+    $('.imgOg').addClass('flicker-3');
+  });
+
+  $( '.imgOg' ).on('mouseleave' ,function() {
+    $('.imgOg').removeClass('flicker-3');
+  });
   
 $('.fa-music').on('click', function(){
   $('.audioPlayer').trigger("play");
