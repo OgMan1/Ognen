@@ -68,7 +68,7 @@ $('#test').on('click', function(){
   }
 });
 
-if(moon() == 200) {
+if(moon() === 202) {
   return sun()
 } else {
   return moon()
