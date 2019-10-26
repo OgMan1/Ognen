@@ -1,324 +1,525 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <link rel="icon" type="image/png" href="img/logo.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="title" content="Front-end developer portfolio" />
+    <meta
+      name="description"
+      content="Here is a developer portfolio page of Ognen Manchevski showing his front-end software development skills using HTML5, CSS3, Bootstrap, JavaScript, jQuery and React. Портфолио страна на фронт енд програмер Огнен Манчевски во која ги покажува своите напредни информатички вештини користејќи HTML5, CSS3, Bootstrap, JavaScript, jQuery, React и многу повеќе."
+    />
+    <meta
+      name="keywords"
+      content="Ognen, Manchevski, Front-end developer, Front end software engineer, React, Bootstrap, responsive web site, web site builder, Macedonian IT software developer, Огнен, Манчевски, програмер за Фронт-енд, инженер за софтвер за фронт-енд, React, Bootstrap, респонзивна веб-страница, македонски развивач на ИТ софтвер, изработувач на веб сајт"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="20 days" />
+    <meta name="author" content="Ognen Manchevski" />
+    <meta name="theme-color" content="#317EFB" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
 
-  <meta name="title" content="Front-end developer portfolio" />
-  <meta name="description"
-    content="Here is a developer portfolio page of Ognen Manchevski showing his front-end software development skills using HTML5, CSS3, Bootstrap, JavaScript, jQuery and React. Портфолио страна на фронт енд програмер Огнен Манчевски во која ги покажува своите напредни информатички вештини користејќи HTML5, CSS3, Bootstrap, JavaScript, jQuery, React и многу повеќе." />
-  <meta name="keywords"
-    content="Ognen, Manchevski, Front-end developer, Front end software engineer, React, Bootstrap, responsive web site, web site builder, Macedonian IT software developer, Огнен, Манчевски, програмер за Фронт-енд, инженер за софтвер за фронт-енд, React, Bootstrap, респонзивна веб-страница, македонски развивач на ИТ софтвер, изработувач на веб сајт" />
-  <meta name="robots" content="index, follow" />
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="language" content="English" />
-  <meta name="revisit-after" content="20 days" />
-  <meta name="author" content="Ognen Manchevski" />
-  <meta name="theme-color" content="#317EFB"/>
-  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-    integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" />
-  <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Ognen Manchevski Front-end developer</title>
+    <style></style>
+  </head>
 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <title>Ognen Manchevski Front-end developer</title>
-  <style></style>
-</head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <!-- NAVBAR -->
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-  <!-- NAVBAR -->
+    <nav
+      class="navbar navbar-expand-md navbar-light container topNav fixed-top d-flex align-items-center"
+    >
+      <a
+        class="navbar-brand navLogo"
+        aria-label="Linkedin page"
+        href="https://www.linkedin.com/in/ognen-manchevski/"
+        ><img
+          src="img/logo.png"
+          alt="Ognen Manchevski logo picture"
+          class="logoPic"
+      /></a>
+      <button
+        class="navbar-toggler navText"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbar1"
+        aria-controls="navbar1"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-  <nav class="navbar navbar-expand-md navbar-light container topNav fixed-top d-flex align-items-center">
-    <a class="navbar-brand navLogo" aria-label="Linkedin page" href="https://www.linkedin.com/in/ognen-manchevski/"><img
-        src="img/logo.png" alt="Ognen Manchevski logo picture" class="logoPic" /></a>
-    <button class="navbar-toggler navText" type="button" data-toggle="collapse" data-target="#navbar1"
-      aria-controls="navbar1" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <div class="collapse navbar-collapse" id="navbar1">
+        <ul class="navbar-nav ml-auto navText bg-primary rounded">
+          <li class="nav-item">
+            <a class="nav-link" href="#home"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Work</a>
+          </li>
 
-    <div class="collapse navbar-collapse" id="navbar1">
-      <ul class="navbar-nav ml-auto navText bg-primary rounded">
-        <li class="nav-item">
-          <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">About me</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#work">Work</a>
-        </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <span class="nav-link music" id="test" href="#"
+              ><i class="far fa-moon"></i
+            ></span>
+          </li>
+          <li class="nav-item">
+            <span class="nav-link music" href="#">
+              <i class="fas fa-music"></i
+            ></span>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact</a>
-        </li>
-        <li class="nav-item">
-          <span class="nav-link music" id="test" href="#"><i class="far fa-moon"></i></span>
-        </li>
-        <li class="nav-item">
-          <span class="nav-link music" href="#">
-            <i class="fas fa-music"></i></span>
-        </li>
-      </ul>
+    <!-- NAVBAR end -->
+
+    <div class="container-fluid">
+      <audio loop class="audioPlayer">
+        <source src="img/matrix.mp3" />
+      </audio>
+
+      <video autoplay muted loop id="myVideo">
+        <source src="vid/Sky.mp4" type="video/mp4" />
+      </video>
+
+      <video autoplay muted loop id="myVideo2">
+        <source src="vid/Space1.mp4" type="video/mp4" />
+      </video>
+
+      <div class="container">
+        <!-- Landing page -->
+        <div class="row landingPage" id="home">
+          <div
+            class="col-12 d-flex justify-content-center align-items-center"
+            data-aos="fade-up"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="1500"
+          >
+            <h1 class="h1Flex flicker-4">
+              Ognen Manchevski
+              <br /><span class="flicker-5">THE</span> <br />
+              <span class="flicker1">Front-end Developer </span><br />
+              <span class="spH1 flipInX">Your growth partner.</span>
+            </h1>
+          </div>
+        </div>
+
+        <div
+          class="row secondRow d-flex flex-row justify-content-center align-items-center"
+          id="about"
+        >
+          <div class="col-12 col-md-6" data-aos="fade-down">
+            <img
+              class="img img-fluid rounded imgSecondRow imgOg"
+              alt="Ognen Manchevski profile image"
+              src="img/Og22.jpeg"
+            />
+          </div>
+          <div class="col-12 col-md-6 secondh2" data-aos="fade-down">
+            <h2 class="flicker-5">About me</h2>
+            <p>
+              Hi. I am
+              <span
+                ><a
+                  id="ogSpan"
+                  href="https://www.linkedin.com/in/ognen-manchevski/"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Linkedin page"
+                  >Ognen Manchevski</a
+                ></span
+              >
+              front-end software engineer and i have turned my passion into a
+              career.
+            </p>
+            <p>
+              Currently i am working with cutting edge technology such as React
+              and Bootstrap providing the best UI experience with fast
+              web-development time and unparalel responsiveness to the last
+              pixel.
+            </p>
+            <p>
+              I am using the latest SEO tricks which will help your business and
+              i am also working with CMS development sites like Wordpress and
+              Wix with custom-made development mindset suited for your needs.
+            </p>
+            <p>
+              My eye for detail and creative view on the world have left me with
+              many highly satisfied clients. <br />
+              I am looking forward to speak with you soon about your unique
+              project, that will help you or your business to the highest
+              level.<br />
+            </p>
+          </div>
+
+          <div class="col-12 col-md-6 textSecondRow" data-aos="fade-up">
+            <h2 class="flicker-5">Skills</h2>
+            <div>
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-danger progBarInfo"
+                role="progressbar"
+                style="width: 85%;"
+                aria-valuenow="85"
+                aria-valuemin="0"
+                aria-valuemax="85"
+              >
+                HTML5 85%
+              </div>
+
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-danger progBarInfo"
+                role="progressbar"
+                style="width: 85%"
+                aria-valuenow="85"
+                aria-valuemin="0"
+                aria-valuemax="85"
+              >
+                CSS3 85%
+              </div>
+
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-danger progBarInfo"
+                role="progressbar"
+                style="width: 85%"
+                aria-valuenow="85"
+                aria-valuemin="0"
+                aria-valuemax="85"
+              >
+                Bootstrap 3/4 85%
+              </div>
+
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-danger progBarInfo"
+                role="progressbar"
+                style="width: 85%"
+                aria-valuenow="85"
+                aria-valuemin="0"
+                aria-valuemax="85"
+              >
+                Git 85%
+              </div>
+
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-danger progBarInfo"
+                role="progressbar"
+                style="width: 80%"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="80"
+              >
+                JavaScript 80%
+              </div>
+
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-danger progBarInfo"
+                role="progressbar"
+                style="width: 80%"
+                aria-valuenow="80"
+                aria-valuemin="0"
+                aria-valuemax="80"
+              >
+                jQuery 80%
+              </div>
+
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-danger progBarInfo"
+                role="progressbar"
+                style="width: 70%"
+                aria-valuenow="70"
+                aria-valuemin="0"
+                aria-valuemax="70"
+              >
+                React 70%
+              </div>
+
+              <div
+                class="progress-bar progress-bar-striped progress-bar-animated bg-warning"
+                role="progressbar"
+                style="width: 35%"
+                aria-valuenow="35"
+                aria-valuemin="0"
+                aria-valuemax="35"
+              >
+                Back-end
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6" data-aos="fade-up">
+            <img
+              class="img img-fluid imgSecondRow2"
+              alt="Ognen logo"
+              src="img/logoNewTrans.png"
+            />
+          </div>
+        </div>
+
+        <div
+          class="row thirdRow d-flex flex-row justify-content-center align-items-center"
+          id="work"
+        >
+          <h2
+            class="col-12 d-flex justify-content-center align-items-center flicker-5"
+            data-aos="fade-up"
+          >
+            My work
+          </h2>
+
+          <!-- <div class="row thirdRow cardRow d-flex flex-row justify-content-center align-items-center"> -->
+          <div class="col-12 col-md-6 cardRow cardDiv" data-aos="fade-down">
+            <a
+              href="https://ogman1.github.io/Project1/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="More about Project 1 - Brainster toolbox"
+            >
+              <img
+                src="img/brpic2.jpg"
+                alt="Project 1 landing page"
+                class="img img-fluid imgSecondRow"
+                alt="Project 1"
+              />
+            </a>
+            <h5 class="cardRow">Project 1 - Brainster toolbox</h5>
+            <ul>
+              <p>Challenges</p>
+
+              <li>To build business company a web site as fast as possible</li>
+              <li>To be 100% responsive</li>
+              <li>UX/UI focused</li>
+            </ul>
+            <a
+              href="https://gitlab.com/OgMan/projects/tree/Project1"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Get code from Project 1 - Brainster toolbox"
+              class="btn btn-danger btnForm"
+              >See the code</a
+            >
+          </div>
+
+          <div class="col-12 col-md-6 cardRow cardDiv" data-aos="fade-down">
+            <a
+              href="https://ogman1.github.io/Project2/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="More about Project 2 - Glozzom company web-site"
+            >
+              <img
+                src="img/p3.jpg"
+                alt="Project 2 landing page"
+                class="img img-fluid imgSecondRow"
+                alt="Project 2"
+              />
+            </a>
+            <h5 class="cardRow">Project 2 - Glozzom company web-site</h5>
+            <ul>
+              <p>Challenges</p>
+              <li>To build a web site using only Bootstrap and CSS</li>
+              <li>To be 100% responsive</li>
+              <li>To have clean, informative design</li>
+            </ul>
+            <a
+              href="https://gitlab.com/OgMan/brainsterprojects_ognenmancevski/tree/Challenge9"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Get code from Project 2 - Glozzom company web-site"
+              class="btn btn-danger btnForm"
+              >See the code</a
+            >
+          </div>
+
+          <div class="col-12 col-md-6 cardRow cardDiv" data-aos="fade-up">
+            <a
+              href="https://ogman1.github.io/Project3/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="More about Project 3 - Localised e-commerce site"
+            >
+              <img
+                src="img/p2.jpg"
+                alt="Project 3 landing page"
+                class="img img-fluid imgSecondRow"
+                alt="Project 3"
+              />
+            </a>
+            <h5 class="cardRow">Project 3 - Localised e-commerce site</h5>
+            <ul>
+              <p>Challenges</p>
+              <li>To build e-commerce site</li>
+              <li>Mobile-first approach</li>
+              <li>Teamwork</li>
+            </ul>
+            <a
+              href="https://gitlab.com/OgMan/projects/tree/Project2"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Get code from Project 3 - Localised e-commerce site"
+              class="btn btn-danger btnForm"
+              >See the code</a
+            >
+          </div>
+
+          <div class="col-12 col-md-6 cardRow cardDiv" data-aos="fade-up">
+            <img
+              src="img/react.png"
+              alt="React logo"
+              class="img img-fluid imgSecondRow"
+              alt="Project 4"
+            />
+            <h5 class="cardRow">Project 4</h5>
+
+            <ul style="list-style:none" ;>
+              <p>React</p>
+              <li>Loading ...</li>
+              <li>Please wait</li>
+              <li>Comming soon...</li>
+            </ul>
+            <a href="#" target="_blank" class="btn btn-danger disabled btnForm"
+              >Please wait</a
+            >
+          </div>
+        </div>
+
+        <div
+          class="row thirdRow d-flex flex-row justify-content-center align-items-center"
+          id="contact"
+        >
+          <h2
+            class="col-12 d-flex justify-content-center align-items-center flicker-5"
+            data-aos="fade-up"
+          >
+            Contact me
+          </h2>
+
+          <div
+            class="col-12 col-md-6 text-center imgPhone"
+            data-aos="fade-down"
+          >
+            <img
+              class="img img-fluid"
+              alt="Phone contact picture"
+              src="img/tel.png"
+            />
+          </div>
+
+          <div class="col-12 col-md-6" data-aos="fade-down">
+            <form
+              action="/action_page.php"
+              method="POST"
+              class="panelForm"
+              netlify
+            >
+              <div class="form-group">
+                <label for="name">Please enter your name</label>
+                <input required type="text" id="name" class="form-control" />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Please enter your e-mail</label>
+                <input required type="email" id="email" class="form-control" />
+              </div>
+
+              <div class="form-group">
+                <label for="textarea">Write your comment</label>
+                <textarea rows="3" id="textarea"> </textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-block btnFor btn-danger">
+                  Send
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <footer class="page-footer container">
+        <div class="row ">
+          <div
+            class="col-12 d-flex flex-row justify-content-between align-items-center"
+          >
+            <div class="footer-copyright text-center py-1">
+              © 2019 Copyright:
+              <span
+                ><img
+                  src="img/logo.png"
+                  alt="Ognen Manchevski logo picture"
+                  class="logoPicFoot"
+                />
+              </span>
+            </div>
+            <div
+              class="footer-copyright text-center py-1 d-flex flex-row justify-content-between align-items-center"
+            >
+              ognenmance@gmail.com
+              <span id="linkedin" style="margin-left: 1em;"
+                ><a
+                  href="https://www.linkedin.com/in/ognen-manchevski/"
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Linkedin page"
+                  ><i class="fab fa-linkedin"></i></a
+              ></span>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
-  </nav>
 
-  <!-- NAVBAR end -->
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
 
-  <div class="container-fluid">
-    <audio loop class="audioPlayer">
-      <source src="img/IggyPass.mp3" />
-    </audio>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <video autoplay muted loop id="myVideo">
-      <source src="vid/Sky.mp4" type="video/mp4" />
-    </video>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
-    <video autoplay muted loop id="myVideo2">
-      <source src="vid/Space1.mp4" type="video/mp4" />
-    </video>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-    <div class="container">
-      <!-- Landing page -->
-      <div class="row landingPage" id="home">
-        <div class="col-12 d-flex justify-content-center align-items-center" data-aos="fade-up"
-          data-aos-easing="ease-in-sine" data-aos-duration="1500">
-          <h1 class="h1Flex flicker-4">
-            Ognen Manchevski
-            <br /><span class="flicker-5">THE</span> <br />
-            <span class="flicker1">Front-end Developer </span><br />
-            <span class="spH1 flipInX">Your growth partner.</span>
-          </h1>
-        </div>
-      </div>
-
-      <div class="row secondRow d-flex flex-row justify-content-center align-items-center" id="about">
-        <div class="col-12 col-md-6" data-aos="fade-down">
-          <img class="img img-fluid rounded imgSecondRow imgOg" alt="Ognen Manchevski profile image" src="img/Og22.jpeg" />
-        </div>
-        <div class="col-12 col-md-6 secondh2" data-aos="fade-down">
-          <h2 class="flicker-5">About me</h2>
-          <p>
-            Hi. I am
-            <span><a id="ogSpan" href="https://www.linkedin.com/in/ognen-manchevski/" target="_blank" rel="noreferrer"
-                aria-label="Linkedin page">Ognen Manchevski</a></span>
-            front-end software engineer and i have turned my passion into a
-            career.
-          </p>
-          <p>
-            Currently i am working with cutting edge technology such as React
-            and Bootstrap providing the best UI experience with fast
-            web-development time and unparalel responsiveness to the last
-            pixel.
-          </p>
-          <p>
-            I am using the latest SEO tricks which will help your business and
-            i am also working with CMS development sites like Wordpress and
-            Wix with custom-made development mindset suited for your needs.
-          </p>
-          <p>
-            My eye for detail and creative view on the world have left me with
-            many highly satisfied clients. <br />
-            I am looking forward to speak with you soon about your unique
-            project, that will help you or your business to the highest
-            level.<br />
-          </p>
-        </div>
-
-        <div class="col-12 col-md-6 textSecondRow" data-aos="fade-up">
-          <h2 class="flicker-5">Skills</h2>
-          <div>
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger progBarInfo"
-              role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="85">
-              HTML5 85%
-            </div>
-
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger progBarInfo"
-              role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="85">
-              CSS3 85%
-            </div>
-
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger progBarInfo"
-              role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="85">
-              Bootstrap 3/4 85%
-            </div>
-
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger progBarInfo"
-              role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="85">
-              Git 85%
-            </div>
-
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger progBarInfo"
-              role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80">
-              JavaScript 80%
-            </div>
-
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger progBarInfo"
-              role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80">
-              jQuery 80%
-            </div>
-
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger progBarInfo"
-              role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="70">
-              React 70%
-            </div>
-
-            <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar"
-              style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="35">
-              Back-end
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-6" data-aos="fade-up">
-          <img class="img img-fluid imgSecondRow2" alt="Ognen logo" src="img/logoNewTrans.png" />
-        </div>
-      </div>
-
-      <div class="row thirdRow d-flex flex-row justify-content-center align-items-center" id="work">
-        <h2 class="col-12 d-flex justify-content-center align-items-center flicker-5" data-aos="fade-up">
-          My work
-        </h2>
-
-        <!-- <div class="row thirdRow cardRow d-flex flex-row justify-content-center align-items-center"> -->
-        <div class="col-12 col-md-6 cardRow cardDiv" data-aos="fade-down">
-          <a href="https://ogman1.github.io/Project1/" target="_blank" rel="noreferrer"
-            aria-label="More about Project 1 - Brainster toolbox">
-            <img src="img/brpic2.jpg" alt="Project 1 landing page" class="img img-fluid imgSecondRow" alt="Project 1" />
-          </a>
-          <h5 class="cardRow">Project 1 - Brainster toolbox website</h5>
-          <ul>
-            <p>Challenges</p>
-       
-            <li>To build business company a website as fast as possible</li>
-            <li>Mobile-first approach</li>
-            <li>UX/UI focused</li>
-          </ul>
-          <a href="https://gitlab.com/OgMan/projects/tree/Project1" target="_blank" rel="noreferrer"
-            aria-label="Get code from Project 1 - Brainster toolbox" class="btn btn-danger btnForm">See the code</a>
-        </div>
-
-        <div class="col-12 col-md-6 cardRow cardDiv" data-aos="fade-down">
-          <a href="https://ogman1.github.io/Project2/" target="_blank" rel="noreferrer"
-            aria-label="More about Project 2 - Glozzom company web-site">
-            <img src="img/p3.jpg" alt="Project 2 landing page" class="img img-fluid imgSecondRow" alt="Project 2" />
-          </a>
-          <h5 class="cardRow">Project 2 - Glozzom company website</h5>
-          <ul>
-            <p>Challenges</p>
-            <li>To build a website using only Bootstrap and CSS</li>
-            <li>To be 100% responsive</li>
-            <li>To have clean, informative design</li>
-          </ul>
-          <a href="https://gitlab.com/OgMan/brainsterprojects_ognenmancevski/tree/Challenge9" target="_blank" rel="noreferrer"
-            aria-label="Get code from Project 2 - Glozzom company web-site" class="btn btn-danger btnForm">See the
-            code</a>
-        </div>
-
-        <div class="col-12 col-md-6 cardRow cardDiv" data-aos="fade-up">
-          <a href="https://ogman1.github.io/Project3/" target="_blank" rel="noreferrer"
-            aria-label="More about Project 3 - Localised e-commerce site">
-            <img src="img/p2.jpg" alt="Project 3 landing page" class="img img-fluid imgSecondRow" alt="Project 3" />
-          </a>
-          <h5 class="cardRow">Project 3 - Localised e-commerce website</h5>
-          <ul>
-            <p>Challenges</p>
-            <li>To build e-commerce website</li>
-            <li>Mobile-first approach</li>
-            <li>Teamwork</li>
-          </ul>
-          <a href="https://gitlab.com/OgMan/projects/tree/Project2" target="_blank" rel="noreferrer"
-            aria-label="Get code from Project 3 - Localised e-commerce site" class="btn btn-danger btnForm">See the
-            code</a>
-        </div>
-
-        <div class="col-12 col-md-6 cardRow cardDiv" data-aos="fade-up">
-          <img src="img/react.png" alt="React logo" class="img img-fluid imgSecondRow" alt="Project 4" />
-          <h5 class="cardRow">Project 4</h5>
-
-          <ul style="list-style:none" ;>
-          <p>React</p>
-            <li>Loading ...</li>
-            <li>Please wait</li>
-            <li>Comming soon...</li>
-          </ul>
-          <a href="#" target="_blank" class="btn btn-danger disabled btnForm">Please wait</a>
-        </div>
-      </div>
-
-      <div class="row thirdRow d-flex flex-row justify-content-center align-items-center" id="contact">
-        <h2 class="col-12 d-flex justify-content-center align-items-center flicker-5" data-aos="fade-up">
-          Contact me
-        </h2>
-
-        <div class="col-12 col-md-6 text-center imgPhone" data-aos="fade-down">
-          <img class="img img-fluid" alt="Phone contact picture" src="img/tel.png" />
-        </div>
-
-        <div class="col-12 col-md-6 panelForm" data-aos="fade-down">
-          <form action="/action_page.php" method="POST">
-            <div class="form-group">
-              <label for="name">Please enter your name</label>
-              <input required type="text" id="name" class="form-control" />
-            </div>
-
-            <div class="form-group">
-              <label for="email">Please enter your e-mail</label>
-              <input required type="email" id="email" class="form-control" />
-            </div>
-
-            <div class="form-group">
-              <label for="textarea">Write your comment</label>
-              <textarea rows="3" id="textarea"> </textarea>
-            </div>
-            <div class="form-group">
-              <button type="submit" class="btn btn-block btnFor btn-danger">
-                Send
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-
-    <footer class="page-footer container">
-      <div class="row ">
-        <div class="col-12 d-flex flex-row justify-content-between align-items-center">
-          <div class="footer-copyright text-center py-1">
-            © 2019 Copyright:
-            <span><img src="img/logo.png" alt="Ognen Manchevski logo picture" class="logoPicFoot" /> </span>
-          </div>
-          <div class="footer-copyright text-center py-1 d-flex flex-row justify-content-between align-items-center">
-            ognenmance@gmail.com
-            <span id="linkedin" style="margin-left: 1em;"><a href="https://www.linkedin.com/in/ognen-manchevski/"
-                target="_blank" rel="noreferrer" aria-label="Linkedin page"><i class="fab fa-linkedin"></i></a></span>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </div>
-
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
-
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-
-  <!-- Popper JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
-  <script src="js/main.js"></script>
-</body>
-
+    <script src="js/main.js"></script>
+  </body>
 </html>
