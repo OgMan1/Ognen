@@ -1223,13 +1223,13 @@ footer {
   border-radius: 10px;
 }
 
-#sat {
+/* #sat {
   position: fixed;
   right: 0;
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-}
+} */
 
 @media screen and (max-width: 576px) {
   .h1Flex {
@@ -1267,9 +1267,9 @@ footer {
     font-size: 1em;
   }
 
-  #sat {
+  /* #sat {
     right: -30px;
-  }
+  } */
 }
 
 @media screen and (max-width: 992px) {
@@ -1281,7 +1281,7 @@ footer {
     margin: 1em 0;
   }
 
-  #sat {
+  /* #sat {
     right: -50px;
-  }
+  } */
 }
