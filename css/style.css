@@ -1266,6 +1266,10 @@ footer {
     padding: 1.25em;
     font-size: 1em;
   }
+
+  #sat {
+    right: -30px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -1275,5 +1279,9 @@ footer {
 
   .secondh2 h2 {
     margin: 1em 0;
+  }
+
+  #sat {
+    right: -50px;
   }
 }
