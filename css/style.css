@@ -1222,6 +1222,10 @@ footer {
   background-repeat: no-repeat;
 }
 
+.bgDark {
+  background-color: rgba(12, 12, 12, 0.5);
+}
+
 .landingPage2 {
   background-color: rgb(46, 44, 44);
   color: whitesmoke;
