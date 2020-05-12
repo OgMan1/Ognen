@@ -1,74 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="icon" type="image/png" href="img/logo.png" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <link rel="icon" type="image/png" href="img/logo.png" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="title" content="Front-end developer portfolio" />
+    <meta
+      name="description"
+      content="Here is a developer portfolio page of Ognen Manchevski showing his front-end software development skills using HTML5, CSS3, Bootstrap, JavaScript, jQuery and React. Портфолио страна на фронт енд програмер Огнен Манчевски во која ги покажува своите напредни информатички вештини користејќи HTML5, CSS3, Bootstrap, JavaScript, jQuery, React и многу повеќе."
+    />
+    <meta
+      name="keywords"
+      content="Ognen, Manchevski, Front-end developer, Front end software engineer, React, Bootstrap, responsive web site, web site builder, Macedonian IT software developer, Огнен, Манчевски, програмер за Фронт-енд, инженер за софтвер за фронт-енд, React, Bootstrap, респонзивна веб-страница, македонски развивач на ИТ софтвер, изработувач на веб сајт"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="20 days" />
+    <meta name="author" content="Ognen Manchevski" />
+    <meta name="theme-color" content="#317EFB" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
 
-  <meta name="title" content="Front-end developer portfolio" />
-  <meta name="description"
-    content="Here is a developer portfolio page of Ognen Manchevski showing his front-end software development skills using HTML5, CSS3, Bootstrap, JavaScript, jQuery and React. Портфолио страна на фронт енд програмер Огнен Манчевски во која ги покажува своите напредни информатички вештини користејќи HTML5, CSS3, Bootstrap, JavaScript, jQuery, React и многу повеќе." />
-  <meta name="keywords"
-    content="Ognen, Manchevski, Front-end developer, Front end software engineer, React, Bootstrap, responsive web site, web site builder, Macedonian IT software developer, Огнен, Манчевски, програмер за Фронт-енд, инженер за софтвер за фронт-енд, React, Bootstrap, респонзивна веб-страница, македонски развивач на ИТ софтвер, изработувач на веб сајт" />
-  <meta name="robots" content="index, follow" />
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta name="language" content="English" />
-  <meta name="revisit-after" content="20 days" />
-  <meta name="author" content="Ognen Manchevski" />
-  <meta name="theme-color" content="#317EFB" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-    integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous" />
-  <!-- <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> -->
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <title>Thank you</title>
+    <style>
+      #sat {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        /* background-position: center; */
+      }
 
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <title>Thank you</title>
-</head>
+      .landingPage2 {
+        background-color: rgb(46, 44, 44);
+        color: whitesmoke;
+        padding: 1em;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
 
-<body>
-  <div class="container-fluid">
-    <!-- <video autoplay muted loop id="sat">
+  <body>
+    <div class="container-fluid">
+      <video autoplay muted loop id="sat">
         <source src="vid/satelit.mp4" type="video/mp4" />
-      </video> -->
-    <div class="row bgCode">
-      <div class="col-12 bgDark">
-        <div class="container">
-          <!-- Landing page -->
-          <div class="row landingPage" id="home">
-            <div class="col-12 d-flex justify-content-center align-items-center">
-              <h3 class="landingPage2">
-                <b>Thank you!</b>
-                <br />Your message has been received.<br />
-                <a href="index.html" style="font-size: 83%;">Back to home page</a>
-              </h3>
-            </div>
+      </video>
+
+      <div class="container">
+        <!-- Landing page -->
+        <div class="row landingPage" id="home">
+          <div class="col-12 d-flex justify-content-center align-items-center">
+            <h3 class="landingPage2">
+              <b>Thank you!</b>
+              <br />Your form submission has been received.<br />
+              <a href="index.html">Back to home page</a>
+            </h3>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
 
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-  <!-- Popper JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
-  <script src="js/main.js"></script>
-</body>
-
+    <script src="js/main.js"></script>
+  </body>
 </html>
